@@ -1,20 +1,21 @@
 import React from 'react'
-import naini from '../assets/nainital.jpg'
-import dow from '../assets/download.jpg'
+import gif1 from '../assets/reminisce/gif1.gif'
+import gif from '../assets/Chinoiserie/GIF.gif'
+import p1 from '../assets/peakaboo/p1.gif'
 
 export default function crousel() {
     return (
-        <div>
+        <div className="m-5">
              <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-        <div className="carousel-inner">
+        <div style={{textAlign:"center"}} className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block " width='600px' src={naini} alt="First slide" />
+            <img className="d-block " width='600px' height="400px" src={gif1} alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block " width='600px' src={dow} alt="Second slide" />
+            <img className="d-block " width='600px' height="400px" src={gif} alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block " src="..." alt="Third slide" />
+            <img className="d-block " src={p1} height="400px" alt="Third slide" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

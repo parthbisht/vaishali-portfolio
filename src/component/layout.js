@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './nav';
 import Crousel from './crousel';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
 import Collection from './collection';
 import Reminisce from './reminisce';
 import Chinoiserie from './Chinoiserie';
@@ -15,25 +15,23 @@ export default function layout() {
             
             <div className="jumbo jumbotron jumbotron-fluid">
                 <div className="container">
-                    <h1 className="vaishali display-4">Vaishali <span className='bisht'>Bisht</span></h1>
+                    <h1 className="display-4"><span className="vaishali">Vaishali</span> <span className='bisht'>Bisht</span></h1>
                 </div>
             </div>
-        
+            
             <Router>
+                
             <Nav/>
-
+            <Switch>
         <Route path='/home'><Crousel/></Route>
         <Route path='/collection'><Collection/></Route>
         <Route path='/reminisce'><Reminisce/></Route>
         <Route path='/chinoiserie'><Chinoiserie/></Route>
         <Route path='/limeroad'><Limeroad/></Route>
-        <Route path='/peakaboo'><Peakaboo/></Route>
-
-
-
-
+        <Route path='/peakaboo'><Peakaboo/></Route> 
+            </Switch>
         
-      </Router>
+            </Router>
 
 
         </div>

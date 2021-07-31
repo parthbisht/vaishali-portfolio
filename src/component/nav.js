@@ -10,19 +10,19 @@ export default function nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul style={{margin:"auto"}} className="navbar-nav">
-            <li className="nav-item active">
+            <li className="nav-item active px-5">
              <Link to="/home"> <a className="nav-link" href="#">HOME <span className="sr-only">(current)</span></a></Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item px-5">
               <Link to='/collection'><a className="nav-link" href="#">COLLECTION</a></Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item px-5">
               <a className="nav-link" href="#">ABOUT</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item px-5">
               <a className="nav-link " href="#">BLOG</a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item px-5">
               <a className="nav-link " href="#">CONTACT</a>
             </li>
           </ul>

@@ -7,8 +7,8 @@ import {Link} from 'react-router-dom'
 
 export default function collection() {
     return (
-        <div>
-            <div className='container row'>
+        <div className='container mt-4'>
+            <div className='row'>
             <div className='col-sm-4'>
             <div className="card" style={{width: '18rem'}}>
         <img className="card-img-top" src={gif} alt="Card image cap" />
