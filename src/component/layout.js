@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './nav';
 import Crousel from './crousel';
-import { BrowserRouter as Router, Route,Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route,Switch, Redirect } from 'react-router-dom';
 import Collection from './collection';
 import Reminisce from './reminisce';
 import Chinoiserie from './Chinoiserie';
@@ -20,8 +20,9 @@ export default function layout() {
                 </div>
             </div>
             <Nav/>
-            <Crousel/>
+            
             <Switch>
+        <Route exact path="/"><Redirect to="/home" /></Route>
         <Route path='/home'><Crousel/></Route>
         <Route path='/collection'><Collection/></Route>
         <Route path='/reminisce'><Reminisce/></Route>
