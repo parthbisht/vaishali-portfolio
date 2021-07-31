@@ -7,7 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.jumbo{
+  text-align: center;
+  font-family: 'Parisienne', cursive;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+.vaishali{
+
+}
+.bisht{
+  color: gray;
+  
+}
+.bisht :hover{
+  color: black;
+  
 }
