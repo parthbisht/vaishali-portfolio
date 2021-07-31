@@ -13,15 +13,14 @@ export default function layout() {
     return (
         <div>
             
+            <Router>
             <div className="jumbo jumbotron jumbotron-fluid">
                 <div className="container">
                     <h1 className="display-4"><span className="vaishali">Vaishali</span> <span className='bisht'>Bisht</span></h1>
                 </div>
             </div>
-            
-            <Router>
-                
             <Nav/>
+            <Crousel/>
             <Switch>
         <Route path='/home'><Crousel/></Route>
         <Route path='/collection'><Collection/></Route>
