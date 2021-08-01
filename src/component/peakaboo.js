@@ -10,12 +10,12 @@ import a3 from '../assets/peakaboo/a3.jpg'
 export default function peakaboo() {
     return (
         <div style={{textAlign:"center"}} className="container">
-        <img className='mb-5' width='650px' height='400px' src={p1} /> 
-        <img className='mb-5' width='650px' height='400px' src={p2} />   
-        <img className='mb-5' width='650px' height='400px' src={p3} />   
-        <img className='mb-5' width='650px' height='400px' src={a1} />   
-        <img className='mb-5' width='650px' height='400px' src={a2} />  
-        <img className='mb-5' width='650px' height='400px' src={a3} />  
+        <img className='mb-5' alt='' width='650px' height='400px' src={p1} /> 
+        <img className='mb-5' alt='' width='650px' height='400px' src={p2} />   
+        <img className='mb-5' alt='' width='650px' height='400px' src={p3} />   
+        <img className='mb-5' alt='' width='650px' height='400px' src={a1} />   
+        <img className='mb-5' alt='' width='650px' height='400px' src={a2} />  
+        <img className='mb-5' alt='' width='650px' height='400px' src={a3} />  
 
 
         </div>

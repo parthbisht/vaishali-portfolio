@@ -17,16 +17,16 @@ import img9 from '../assets/reminisce/9.jpg'
 export default function reminisce() {
     return (
         <div style={{textAlign:"center"}} className="container ">
-        <img className='mb-5' width='650px' height='400px' src={gif1} />   
-        <img className='mb-5' width='650px' height='400px' src={gif2} />
-        <img className='mb-5' width='650px' height='400px' src={mid} />
-        <img className='mb-5' width='650px' height='400px' src={img3} />
-        <img className='mb-5' width='650px' height='400px' src={img4} />
-        <img className='mb-5' width='650px' height='400px' src={img5} />
-        <img className='mb-5' width='650px' height='400px' src={img6} />
-        <img className='mb-5' width='650px' height='400px' src={img7} />
-        <img className='mb-5' width='650px' height='400px' src={img8} />
-        <img className='mb-5' width='650px' height='400px' src={img9} />
+        <img className='mb-5' alt='' width='650px' height='400px' src={gif1} />   
+        <img className='mb-5' alt='' width='650px' height='400px' src={gif2} />
+        <img className='mb-5' alt='' width='650px' height='400px' src={mid} />
+        <img className='mb-5' alt='' width='650px' height='400px' src={img3} />
+        <img className='mb-5' alt='' width='650px' height='400px' src={img4} />
+        <img className='mb-5' alt='' width='650px' height='400px' src={img5} />
+        <img className='mb-5' alt='' width='650px' height='400px' src={img6} />
+        <img className='mb-5' alt='' width='650px' height='400px' src={img7} />
+        <img className='mb-5' alt='' width='650px' height='400px' src={img8} />
+        <img className='mb-5' alt='' width='650px' height='400px' src={img9} />
 
 
 

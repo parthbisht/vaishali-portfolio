@@ -12,13 +12,13 @@ export default function limeroad() {
     return (
         <div>
                 <div style={{textAlign:"center"}} className="container">
-        <img className='mb-5' width='650px' height='400px' src={lr1} /> 
-        <img className='mb-5' width='650px' height='400px' src={lr2} />   
-        <img className='mb-5' width='650px' height='400px' src={lr3} />   
-        <img className='mb-5' width='650px' height='400px' src={lr4} />   
-        <img className='mb-5' width='650px' height='400px' src={lr5} />  
-        <img className='mb-5' width='650px' height='400px' src={lr6} />  
-        <img className='mb-5' width='650px' height='400px' src={lr7} />  
+        <img className='mb-5' alt=''  width='650px' height='400px' src={lr1} /> 
+        <img className='mb-5' alt='' width='650px' height='400px' src={lr2} />   
+        <img className='mb-5' alt='' width='650px' height='400px' src={lr3} />   
+        <img className='mb-5' alt='' width='650px' height='400px' src={lr4} />   
+        <img className='mb-5' alt='' width='650px' height='400px' src={lr5} />  
+        <img className='mb-5' alt='' width='650px' height='400px' src={lr6} />  
+        <img className='mb-5' alt='' width='650px' height='400px' src={lr7} />  
 
 
         </div>
