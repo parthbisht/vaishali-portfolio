@@ -22,7 +22,7 @@ export default function layout() {
             <Nav/>
             
             <Switch>
-        <Route exact path="/"><Redirect to="/home" /></Route>
+        <Route exact path="/vaishali-portfolio"><Redirect to="/home" /></Route>
         <Route path='/home'><Crousel/></Route>
         <Route path='/collection'><Collection/></Route>
         <Route path='/reminisce'><Reminisce/></Route>

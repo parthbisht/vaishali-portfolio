@@ -9,13 +9,13 @@ export default function crousel() {
              <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
         <div style={{textAlign:"center"}} className="carousel-inner">
           <div className="carousel-item active">
-            <img className="d-block " width='600px' height="400px" src={gif1} alt="First slide" />
+            <img className="d-block img-fluid " width='600px' height="400px" src={gif1} alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block " width='600px' height="400px" src={gif} alt="Second slide" />
+            <img className="d-block img-fluid " width='600px' height="400px" src={gif} alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block " src={p1} height="400px" alt="Third slide" />
+            <img className="d-block img-fluid" src={p1} height="400px" alt="Third slide" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
