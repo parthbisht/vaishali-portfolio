@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/vaishali-portfolio/static/css/main.7bc8786e.chunk.css",
-    "main.js": "/vaishali-portfolio/static/js/main.c534c860.chunk.js",
-    "main.js.map": "/vaishali-portfolio/static/js/main.c534c860.chunk.js.map",
+    "main.css": "/vaishali-portfolio/static/css/main.133710cb.chunk.css",
+    "main.js": "/vaishali-portfolio/static/js/main.7cbd69e4.chunk.js",
+    "main.js.map": "/vaishali-portfolio/static/js/main.7cbd69e4.chunk.js.map",
     "runtime-main.js": "/vaishali-portfolio/static/js/runtime-main.e31c1420.js",
     "runtime-main.js.map": "/vaishali-portfolio/static/js/runtime-main.e31c1420.js.map",
     "static/js/2.7fd49601.chunk.js": "/vaishali-portfolio/static/js/2.7fd49601.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.1f2de08e.chunk.js": "/vaishali-portfolio/static/js/3.1f2de08e.chunk.js",
     "static/js/3.1f2de08e.chunk.js.map": "/vaishali-portfolio/static/js/3.1f2de08e.chunk.js.map",
     "index.html": "/vaishali-portfolio/index.html",
-    "static/css/main.7bc8786e.chunk.css.map": "/vaishali-portfolio/static/css/main.7bc8786e.chunk.css.map",
+    "static/css/main.133710cb.chunk.css.map": "/vaishali-portfolio/static/css/main.133710cb.chunk.css.map",
     "static/js/2.7fd49601.chunk.js.LICENSE.txt": "/vaishali-portfolio/static/js/2.7fd49601.chunk.js.LICENSE.txt",
     "static/media/3.c8b2b025.jpg": "/vaishali-portfolio/static/media/3.c8b2b025.jpg",
     "static/media/4.8dcdb2cd.jpg": "/vaishali-portfolio/static/media/4.8dcdb2cd.jpg",
@@ -46,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.e31c1420.js",
     "static/js/2.7fd49601.chunk.js",
-    "static/css/main.7bc8786e.chunk.css",
-    "static/js/main.c534c860.chunk.js"
+    "static/css/main.133710cb.chunk.css",
+    "static/js/main.7cbd69e4.chunk.js"
   ]
 }
